@@ -1,0 +1,23 @@
+---
+---
+
+{% include reset.css %}
+{% include header-footer.css %}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #FFF;
+  font-size: 1.5em;
+  font-family: 'Alegreya Sans';
+  color: #FFFFFF;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

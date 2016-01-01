@@ -1,0 +1,286 @@
+---
+---
+
+{% include reset.css %}
+{% include header-footer.css %}
+
+body {
+  background-color: #FFF;
+  font-family: 'Alegreya Sans';
+  color: #FFFFFF;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Bagian Content */
+.content {
+  position: relative;
+  background-color: #FFFFFF;
+  margin: 40px auto 0;
+  width: 100%;
+}
+
+/*Bagian Konten Pertama (Little About Me)*/
+.first-content {
+  position: relative;
+  color: #333333;
+  text-align: center;
+  padding: 50px 170px;
+  /*background-color: rgb(1, 140, 207);*/
+}
+
+.first-content div:first-child {
+  font-size: 4rem;
+  margin-bottom: 35px;
+  color: #424141;
+}
+
+.first-content div:nth-child(2) {
+  font-size: 1.7rem;
+  font-style: italic;
+  margin-bottom: 40px;
+  color: #424141;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /*background-color: rgb(41, 221, 37);*/
+}
+
+.first-content div:nth-child(2) p {
+  text-align: left;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  /*background-color: rgb(185, 151, 171);*/
+}
+
+.first-content div:nth-child(2) img {
+  margin-left: 50px;
+  width: 250px;
+  height: 254px;
+}
+
+
+
+/*Bagian Konten Kedua (Some like hobbies)*/
+.second-content {
+  position: relative;
+  background-color: #2595f6;
+  padding: 30px 170px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.second-content p:first-child {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.hobby {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.second-content div div {
+  width: 100%;
+  padding: 0 20px;
+  font-size: 1.5em;
+}
+.second-content div div img {
+  width: 130px;
+  height: 130px;
+}
+
+/*.second-content  div div:first-child {
+  background-color: rgb(156, 8, 62);
+}
+
+.second-content div div:nth-child(2) {
+  background-color: rgb(95, 108, 13);
+}
+
+.second-content div div:nth-child(3) {
+  background-color: rgb(122, 59, 117);
+}*/
+
+
+
+/*Bagian Konten Ketiga (About Project, Work)*/
+.third-content {
+  position: relative;
+  background-color: #828282;
+  padding: 30px 170px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.third-content p:first-child {
+  color: #fff;
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+
+.third-content > div {
+  /*background-color: #eee0aa;*/
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.project {
+  position: relative;
+  background-color: #222;
+  width: 45%;
+  height: 450px;
+  font-size: 2em;
+}
+
+  .project:first-child {
+    background: url('../image/personal1.png') no-repeat;
+    background-size: cover;
+  }
+
+  .project:nth-child(2) {
+    background: url('../image/personal2.png') no-repeat;
+    background-size: cover;
+  }
+
+  .project > a {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    line-height: 450px;
+  }
+
+    .project > a:hover {
+      opacity: 1;
+    }
+
+    .project span {
+      display: inline-block;
+      text-align: center;
+    }
+
+
+
+/*Bagian Konten Keempat (About Bar Teknikal Skill)*/
+.fourth-content {
+  position: relative;
+  background-color: #afafaf;
+  padding: 30px 170px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.fourth-content > p {
+  font-size: 4em;
+}
+
+.fourth-content div {
+  position: relative;
+  background-color: #fff;
+  margin: 20px auto;
+  height: 50px;
+  width: 650px;
+}
+
+.fourth-content > div:nth-child(4) {
+  margin-bottom: 50px;
+}
+
+.fourth-content div p {
+  position: relative;
+  background-color: #2595f6;
+  height: 100%;
+  text-align: left;
+  padding: 3px 0 3px 20px;
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.bar1 p {
+  width: 75%;
+}
+
+.bar2 p {
+  width: 45%;
+}
+
+.bar3 p {
+  width: 35%;
+}
+
+.fourth-content a {
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.fourth-content a:hover {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #424141;
+}
+/*Bagian Konten Kelima (Social Link)*/
+.fifth-content {
+  position: relative;
+  background-color: #3f3f3f;
+  padding: 30px 170px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.fifth-content > div:first-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /*background-color: #98f187;*/
+  margin-bottom: 30px;
+}
+
+.fifth-content div:first-child div {
+  width: 100%;
+  height: 100px;
+}
+.fifth-content div:first-child div a img {
+  width: 100px;
+  height: 100%;
+}
+
+
+.fifth-content > div:nth-child(2) {
+  position: relative;
+  border-top: 3px solid #fff;
+  /*background-color: #415d3c;*/
+  padding-top: 25px;
+}
+
+.fifth-content > div:nth-child(2) a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 4em;
+}
