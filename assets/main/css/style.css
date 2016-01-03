@@ -21,7 +21,7 @@ a {
 .content {
   position: relative;
   background-color: #FFFFFF;
-  margin: 40px auto 0;
+  margin: 2.5rem auto 0;
   width: 100%;
 }
 
@@ -30,20 +30,20 @@ a {
   position: relative;
   color: #333333;
   text-align: center;
-  padding: 50px 170px;
+  padding: 3.125rem 10.625rem;
   /*background-color: rgb(1, 140, 207);*/
 }
 
 .first-content div:first-child {
-  font-size: 4rem;
-  margin-bottom: 35px;
+  font-size: 3.3rem;
+  margin-bottom: 2.187rem;
   color: #424141;
 }
 
 .first-content div:nth-child(2) {
-  font-size: 1.7rem;
+  font-size: 1.67rem;
   font-style: italic;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   color: #424141;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61,9 +61,9 @@ a {
 }
 
 .first-content div:nth-child(2) img {
-  margin-left: 50px;
-  width: 250px;
-  height: 254px;
+  margin-left: 3.125rem;
+  width: 15.625rem;
+  height: 15.875rem;
 }
 
 
@@ -72,14 +72,13 @@ a {
 .second-content {
   position: relative;
   background-color: #2595f6;
-  padding: 30px 170px;
-  padding-bottom: 50px;
+  padding: 1.875rem 10.625rem 3.125rem;
   text-align: center;
 }
 
 .second-content p:first-child {
-  font-size: 4em;
-  margin-bottom: 20px;
+  font-size: 3.3rem;
+  margin-bottom: 1.25rem;
 }
 
 .hobby {
@@ -87,17 +86,17 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .second-content div div {
   width: 100%;
-  padding: 0 20px;
-  font-size: 1.5em;
+  padding: 0 1.25rem;
+  font-size: 1.5rem;
 }
 .second-content div div img {
-  width: 130px;
-  height: 130px;
+  width: 8.125rem;
+  height: 8.125rem;
 }
 
 /*.second-content  div div:first-child {
@@ -118,15 +117,15 @@ a {
 .third-content {
   position: relative;
   background-color: #828282;
-  padding: 30px 170px;
-  padding-bottom: 50px;
+  padding: 1.875rem 10.625rem;
+  padding-bottom: 3.125rem;
   text-align: center;
 }
 
 .third-content p:first-child {
   color: #fff;
-  font-size: 4em;
-  margin-bottom: 30px;
+  font-size: 3.3rem;
+  margin-bottom: 1.875rem;
 }
 
 .third-content > div {
@@ -144,8 +143,8 @@ a {
   position: relative;
   background-color: #222;
   width: 45%;
-  height: 450px;
-  font-size: 2em;
+  height: 28.125rem;
+  font-size: 1.75rem;
 }
 
   .project:first-child {
@@ -185,25 +184,25 @@ a {
 .fourth-content {
   position: relative;
   background-color: #afafaf;
-  padding: 30px 170px;
-  padding-bottom: 50px;
+  padding: 1.875rem 10.625rem;
+  padding-bottom: 3.125rem;
   text-align: center;
 }
 
 .fourth-content > p {
-  font-size: 4em;
+  font-size: 3.3rem;
 }
 
 .fourth-content div {
   position: relative;
   background-color: #fff;
-  margin: 20px auto;
-  height: 50px;
-  width: 650px;
+  margin: 1.25rem auto;
+  height: 3.125rem;
+  width: 40.625rem;
 }
 
 .fourth-content > div:nth-child(4) {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .fourth-content div p {
@@ -212,7 +211,7 @@ a {
   height: 100%;
   text-align: left;
   padding: 3px 0 3px 20px;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   font-weight: 600;
 }
 
@@ -230,7 +229,7 @@ a {
 
 .fourth-content a {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   padding: 10px 40px;
   border: 2px solid #fff;
   color: #fff;
